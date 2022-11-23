@@ -1,0 +1,110 @@
+.header {
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid #bdbdbd;
+    padding: 10px;
+
+    .left-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 290px;
+        width: 100%;
+
+        .brand {
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 900;
+            //padding: 0 10px;
+        }
+
+
+        .each-bar {
+            position: relative;
+            cursor: pointer;
+
+            .bar {
+                display: block;
+                width: 30px;
+                transition: all .2s ease;
+                height: 2px;
+                background-color: $black;
+                margin: 6px 0;
+            }
+
+            &:hover {
+                .bar:nth-child(2) {
+                    width: 20px;
+                    transition: all .2s ease;
+                }
+            }
+        }
+    }
+
+    .right-header {
+        //width: 100px;
+        border-left: 1px solid $light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .user {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: $light;
+            margin-right: 20px;
+            position: relative;
+        }
+
+        .user-name {
+            cursor: pointer;
+            padding: 20px;
+            position: relative;
+
+            &:hover {
+                .user-dropdown {
+                    display: block;
+                }
+            }
+
+            .user-dropdown {
+                margin: 0;
+                list-style: none;
+                position: absolute;
+                background-color: $white;
+                box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .1);
+                border-radius: 10px;
+                z-index: 1;
+                top: 60px;
+                right: 1px;
+                display: none;
+
+                li {
+                    padding: 10px 0;
+                    margin: 5px;
+
+
+                    a {
+                        text-decoration: none;
+                        color: $black;
+                        padding: 10px 30px;
+                        border-radius: 10px;
+                        transition: .2s all ease-in-out;
+
+                        &:hover {
+                            transition: .2s all ease-in-out;
+                            background-color: $lighter;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+

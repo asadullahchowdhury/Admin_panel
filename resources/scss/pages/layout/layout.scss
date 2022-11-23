@@ -1,0 +1,12 @@
+.layout {
+    .main-body {
+        display: flex;
+
+        .main-content {
+            max-width: calc(100% - 300px);
+            width: 100%;
+            background-color: $body-bg;
+            padding: 20px;
+        }
+    }
+}
