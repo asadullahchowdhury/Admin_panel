@@ -17,3 +17,17 @@
         color: #2d3748;
     }
 }
+
+.btn-theme {
+    background-color: #6C63FF;
+    color: $white;
+    font-weight: 500;
+    transition: .2s all ease-in-out;
+
+    &:hover {
+        transition: .2s all ease-in-out;
+        background-color: #554fb0;
+        color: $white;
+        box-shadow: 1px 1px 3px 1px rgb(0, 0, 0, .3);
+    }
+}
