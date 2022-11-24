@@ -1,0 +1,21 @@
+.brand {
+
+    .table-theme {
+        tbody {
+            tr {
+                td {
+                    .logo-box {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 80%;
+                        height: 40px;
+                        background-color: $light;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+

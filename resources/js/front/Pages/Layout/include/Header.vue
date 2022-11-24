@@ -19,7 +19,7 @@
             </div>
 
             <div class="user">
-
+                <img src="/images/profile.png" alt="profile" class="img-fluid">
             </div>
         </div>
     </div>

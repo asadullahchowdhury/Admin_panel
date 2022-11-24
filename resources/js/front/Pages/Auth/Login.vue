@@ -21,7 +21,7 @@
                     <input type="checkbox" class="form-check-input me-3">
                     <label for="check"> Remember me</label>
                 </div>
-                <button type="button" class="btn btn-theme w-100">Login</button>
+                <button type="button" class="btn btn-theme mt-3 w-100">Login</button>
             </div>
         </div>
     </div>

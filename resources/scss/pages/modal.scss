@@ -1,0 +1,128 @@
+#edit_profile {
+    .modal-dialog {
+        .modal-content {
+            .modal-header {
+                //border-bottom: none;
+
+                .modal-title {
+
+                }
+            }
+
+            .modal-body {
+                .form-group {
+                    margin-bottom: 20px;
+
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+
+                    label {
+                        margin-bottom: 5px;
+                    }
+
+                    .form-control {
+                        font-size: 14px;
+                        height: 43px;
+                    }
+                }
+            }
+
+            .modal-footer {
+                //border-top: none;
+            }
+        }
+    }
+}
+
+//password modal
+
+#change_pass {
+    .modal-dialog {
+        .modal-content {
+            .modal-header {
+                //border-bottom: none;
+
+                .modal-title {
+
+                }
+            }
+
+            .modal-body {
+                .form-group {
+                    margin-bottom: 20px;
+
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+
+                    label {
+                        margin-bottom: 5px;
+                    }
+
+                    .form-control {
+                        font-size: 14px;
+                        height: 43px;
+                    }
+                }
+            }
+
+            .modal-footer {
+                //border-top: none;
+            }
+        }
+    }
+}
+
+
+//brand modal
+
+#brand {
+    .modal-dialog {
+        .modal-content {
+            .modal-header {
+                //border-bottom: none;
+
+                .modal-title {
+
+                }
+            }
+
+            .modal-body {
+                .form-group {
+                    margin-bottom: 20px;
+
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+
+                    label {
+                        margin-bottom: 5px;
+                    }
+
+                    .form-control {
+                        font-size: 14px;
+                        height: 43px;
+                    }
+
+                    .upload-logo {
+                        width: 200px;
+                        border-radius: 4px;
+                        padding: 10px;
+                        color: $white;
+                        background-color: $theme-color-2;
+
+                        img {
+                            margin-right: 10px;
+                            width: 16px;
+                        }
+                    }
+                }
+            }
+
+            .modal-footer {
+                //border-top: none;
+            }
+        }
+    }
+}
