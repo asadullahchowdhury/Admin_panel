@@ -63,6 +63,7 @@
                     .form-control {
                         font-size: 14px;
                         height: 43px;
+                        box-shadow: none;
                     }
                 }
             }
@@ -103,6 +104,7 @@
                     .form-control {
                         font-size: 14px;
                         height: 43px;
+                        box-shadow: none;
                     }
 
                     .upload-logo {
@@ -111,6 +113,129 @@
                         padding: 10px;
                         color: $white;
                         background-color: $theme-color-2;
+                        transition: all .2s ease-in-out;
+
+                        &:hover {
+                            background-color: $theme-color-2-dark;
+                        }
+
+                        img {
+                            margin-right: 10px;
+                            width: 16px;
+                        }
+                    }
+                }
+            }
+
+            .modal-footer {
+                //border-top: none;
+            }
+        }
+    }
+}
+
+
+//Product modal
+
+#product_modal {
+    .modal-dialog {
+        .modal-content {
+            .modal-header {
+                //border-bottom: none;
+
+                .modal-title {
+
+                }
+            }
+
+            .modal-body {
+                .form-group {
+                    margin-bottom: 20px;
+
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+
+                    label {
+                        margin-bottom: 5px;
+                    }
+
+                    .form-control {
+                        font-size: 14px;
+                        height: 43px;
+                        box-shadow: none;
+                    }
+
+                    .upload-logo {
+                        width: 200px;
+                        border-radius: 4px;
+                        padding: 10px;
+                        color: $white;
+                        background-color: $theme-color-2;
+                        transition: all .2s ease-in-out;
+
+                        &:hover {
+                            background-color: $theme-color-2-dark;
+                        }
+
+                        img {
+                            margin-right: 10px;
+                            width: 16px;
+                        }
+                    }
+                }
+            }
+
+            .modal-footer {
+                //border-top: none;
+            }
+        }
+    }
+}
+
+
+//Product modal
+
+#category_modal {
+    .modal-dialog {
+        .modal-content {
+            .modal-header {
+                //border-bottom: none;
+
+                .modal-title {
+
+                }
+            }
+
+            .modal-body {
+                .form-group {
+                    margin-bottom: 20px;
+
+                    &:first-child {
+                        margin-top: 10px;
+                    }
+
+                    label {
+                        margin-bottom: 5px;
+                    }
+
+                    .form-control {
+                        font-size: 14px;
+                        height: 43px;
+                        box-shadow: none;
+                    }
+
+                    .upload-logo {
+                        width: 200px;
+                        border-radius: 4px;
+                        padding: 10px;
+                        color: $white;
+                        background-color: $theme-color-2;
+                        transition: all .2s ease-in-out;
+
+                        &:hover {
+                            background-color: $theme-color-2-dark;
+                        }
 
                         img {
                             margin-right: 10px;

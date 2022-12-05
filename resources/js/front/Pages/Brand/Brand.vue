@@ -120,7 +120,7 @@
 
         <!--add brand Modal -->
         <div class="modal fade" id="brand" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5" id="exampleModalLabel">Add brand</h1>
@@ -133,7 +133,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="desc">Title</label>
+                            <label for="desc">Description</label>
                             <textarea class="form-control" placeholder="Description" style="height: 100px"></textarea>
                         </div>
 

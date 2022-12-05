@@ -11,7 +11,7 @@
                     </div>
                     <div class="col-md-4"></div>
                     <div class="col-md-4 text-end">
-                        <button type="button" class="btn btn-theme px-4" data-bs-toggle="modal" data-bs-target="#brand">
+                        <button type="button" class="btn btn-theme px-4" data-bs-toggle="modal" data-bs-target="#category_modal">
                             Add Categories
                         </button>
                     </div>
@@ -100,6 +100,53 @@
             </div>
         </div>
     </div>
+
+
+
+    <!--categories Modal -->
+    <div class="modal fade" id="category_modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add Categories</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">Title</label>
+                                <input type="text" class="form-control" placeholder="Category Name" id="name">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="code">Item Code</label>
+                                <input type="text" class="form-control" placeholder="Item code" id="code">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="desc">Description</label>
+                        <textarea class="form-control" placeholder="Description" style="height: 100px"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="upload-logo">
+                            <img src="/icons/image.svg" alt=""> Upload Image
+                            <input type="file" class="d-none">
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-theme px-4">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </template>
 <script>
 
