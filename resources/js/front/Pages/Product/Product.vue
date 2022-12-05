@@ -13,7 +13,7 @@
                     <div class="col-md-4"></div>
                     <div class="col-md-4 text-end">
                         <button type="button" class="btn btn-theme px-4" data-bs-toggle="modal" data-bs-target="#brand">
-                            Add Categories
+                            Add Items
                         </button>
                     </div>
 
