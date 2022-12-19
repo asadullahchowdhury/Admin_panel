@@ -14,26 +14,31 @@
                 display: flex;
                 color: white;
                 align-items: center;
-                padding: 20px 30px;
+                padding: 15px 30px;
                 transition: .3s all ease-in-out;
                 position: relative;
 
                 &.router-link-exact-active {
-                    background-color: #3f4656;
+                    background-color: $theme-color-hover;
                 }
 
                 img {
-                    margin-right: 30px;
+                    margin-right: 20px;
                     margin-left: 10px;
                     width: 18px;
                 }
 
+                span {
+                    transform: translate(0);
+                    transition: .3s all ease-in-out;
+                }
+
                 &:hover {
-                    background-color: #3f4656;
-                    transition: .2s all ease-in-out;
+                    background-color: $theme-color-hover;
+                    transition: .3s all ease-in-out;
 
                     span {
-                        transform: translate(5px);
+                        transform: translate(10px);
                         transition: .3s all ease-in-out;
                     }
                 }

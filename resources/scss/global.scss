@@ -4,7 +4,7 @@
     //font-size: 20px;
     font-size: 1.5rem;
     line-height: 1.2;
-    color: #000;
+    color: $black;
     display: table;
     width: 100%;
     font-weight: 600;
@@ -32,7 +32,7 @@
     .section-title {
         font-size: 16px;
         font-weight: 500;
-        color: #6C63FF;
+        color: $theme-color;
         margin-bottom: 30px;
     }
 
@@ -60,7 +60,7 @@
 /*buttons*/
 
 .btn-theme {
-    background-color: #6C63FF;
+    background-color: $theme-color;
     color: $white;
     font-weight: 500;
     transition: .2s all ease-in-out;
@@ -68,7 +68,7 @@
 
     &:hover {
         transition: .2s all ease-in-out;
-        background-color: #554fb0;
+        background-color: $theme-color-hover;
         color: $white;
         box-shadow: 1px 1px 3px 1px rgb(0, 0, 0, .3);
     }
@@ -79,7 +79,7 @@
 .table-theme {
     thead {
         tr {
-            background-color: #6C63FF;
+            background-color: $theme-color;
             color: $white;
 
             th {
